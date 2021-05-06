@@ -1,0 +1,4 @@
+.pynb_checkpoints/
+*.ipynb_checkpoints
+
+*.json
