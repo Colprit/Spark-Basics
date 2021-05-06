@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  jupyter-pyspark:
+    image: jupyter/pyspark-notebook:016833b15ceb
+    environment:
+      JUPYTER_TOKEN: "default"
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./:/home/jovyan/application"
